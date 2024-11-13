@@ -12,8 +12,10 @@ function App() {
         <div className="App">
             <NavGroup/>
             <div className='page-container'>
-                <Header/>
-                <Outlet/>
+                <Header/>   
+                <div className='page-outlet'>
+                    <Outlet/>
+                </div>            
             </div>
         </div>
     );

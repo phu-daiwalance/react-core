@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes,  Route} from "react-router-dom";
 import './index.css';
 import App from './App';
-import Dashboard from "./components/pages/Dashboard";
+import Dashboard from "./components/pages/Dashboard/Dashboard";
 import Setting from "./components/pages/Setting";
+import Inbox from "./components/pages/Inbox";
 import NotFound from "./components/pages/NotFound";
 
 const root = ReactDOM.createRoot(
@@ -15,6 +16,7 @@ root.render(
         <Routes>
             <Route path='/' element={<App />}>
                 <Route path='/dashboard' element={<Dashboard />} />
+                <Route path='/inbox' element={<Inbox />} />
                 <Route path='/setting' element={<Setting />} />
                 <Route path='*' element={<NotFound />} />
             </Route>

@@ -85,7 +85,7 @@ Logo.args = {
   linkIcon: Images.Logo,
   imgVariant: 'img-logo',
 
-  title: "Storybook",
+  title: "StoryBook",
   txtVariant: 'txt-logo',
 
   onClick: action('on-click'),

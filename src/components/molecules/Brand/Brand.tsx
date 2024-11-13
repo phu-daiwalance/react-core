@@ -13,7 +13,7 @@ export const Brand: React.FC<BrandProps> = ({
         <Button
             variant='btn-logo'
             imgVariant='img-logo'
-            title= "Storybook"
+            title= "Daiwa-Test"
             linkIcon={Images.Logo}
         />
         <Image variant='img-menu' srcImg={Images.Menu}  />

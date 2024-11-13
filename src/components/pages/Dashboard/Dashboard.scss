@@ -1,0 +1,100 @@
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;
+// Desktop
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+    p{
+        margin-bottom: 5px;
+    }
+    .sidebar-img{
+        margin-bottom: 7px;
+    }
+    .list{
+        display: flex;
+        gap: 10px;
+        .item{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            border: 1px solid black;
+            font-size: 28px;
+            &.item-1{
+                background: #f472b6;
+            }
+            &.item-2{
+                background: #38bdf8;
+            }
+            &.item-3{
+                background: #34d399;
+            }
+            &.item-4{
+                background: #facc15;
+            }
+            &.item-5{
+                background: #a8a29e;
+            }
+        }
+    }
+    
+    .sidebar-img{
+        width: 80%;
+        border: 1px solid black;
+    }
+    .sidebar-img-2{
+        width: 60%;
+        border: 1px solid black;
+    }
+}
+// Tablet
+@media screen and (min-width: $mobile-width) and (max-width: $tablet-width) {
+    
+}
+// Mobile
+@media screen and (max-width: $mobile-width) {
+    .o-nav-group{
+        display: none;
+    }
+    .sidebar-img-2{
+        width: 80%;
+        border: 1px solid black;
+    }
+    .o-header{
+        display: none;
+    }
+    .dashboard{
+        .list{
+            display: flex;
+            gap: 10px;
+            .item{
+                width: 100px;
+                height: 100px;
+                &.item-1{
+                    background: #f472b6;
+                }
+                &.item-2{
+                    background: #38bdf8;
+                }
+                &.item-3{
+                    background: #34d399;
+                }
+                &.item-4{
+                    background: #facc15;
+                }
+                &.item-5{
+                    background: #a8a29e;
+                }
+            }
+        }
+    }
+}

@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+# check version
+node -v || node --version
+
+# list installed versions of node (via nvm)
+nvm ls
+
+# install specific version of node
+nvm install 6.9.2
+
+# set default version of node
+nvm alias default 6.9.2
+
+# switch version of node
+nvm use 6.9.1

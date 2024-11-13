@@ -22,9 +22,13 @@ import Settings from '../assets/images/setting-line.svg';
 import Logo from '../assets/images/storybook.svg';
 import Menu from '../assets/images/menu.svg';
 import Avatar from '../assets/images/avatar.jpg';
+import BugImgOne from '../assets/images/bug-1.png';
+import BugImgOneResult from '../assets/images/bug-1-results.png';
+import BugImgTwoResult from '../assets/images/bug-2-results.png';
 
 export const Images = {
   PH2Logo, DashboardIcon, ActionIcon, InboxIcon, ReportIcon, SearchIcon,
   Logout, OpenEye, CloseEye, Book, Grade, MessageIcon, MailIcon, BellIcon,
   UpIcon, DownIcon, LeftIcon, RightIcon, BookMark, Thunder, Settings, Logo, Menu, Avatar,
+  BugImgOne, BugImgOneResult, BugImgTwoResult
 }

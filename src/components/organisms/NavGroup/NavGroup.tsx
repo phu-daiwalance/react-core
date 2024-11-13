@@ -13,33 +13,15 @@ export const NavGroup: React.FC<NavGroupProps> = ({
 
     const sidebarArr = [
         {
-            name: 'Dashboard',
+            name: 'I - CSS Test',
             linkIcon: Images.Book || 'https://picsum.photos/19',
             activeObject: false,
             linkIconPlus: Images.RightIcon,
             imgVariantPlus: 'img-arrow',
             path: '/dashboard',
-            childrens: [
-                {
-                    name: 'Dashboard Sub1',
-                    linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                    activeObject: false,
-                    linkIconPlus: Images.RightIcon,
-                    imgVariantPlus: 'img-arrow',
-                    path: '/dashboard'
-                },
-                {
-                    name: 'Dashboard Sub2',
-                    linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                    activeObject: false,
-                    linkIconPlus: Images.RightIcon,
-                    imgVariantPlus: 'img-arrow',
-                    path: '/dashboard'
-                },
-            ]
         },
         {
-            name: 'Inbox',
+            name: 'II - Javascript Test',
             linkIcon: Images.InboxIcon || 'https://picsum.photos/19',
             activeObject: false,
             linkIconPlus: Images.InboxIcon,
@@ -47,51 +29,15 @@ export const NavGroup: React.FC<NavGroupProps> = ({
             path: '/inbox',
         },
         {
-            name: 'Actions',
+            name: 'III - ReactJS Test',
             linkIcon: Images.Book || 'https://picsum.photos/19',
             activeObject: false,
             linkIconPlus: Images.RightIcon,
             imgVariantPlus: 'img-arrow',
             path: '/action',
-            childrens: [
-                {
-                    name: 'Action 1',
-                    linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                    activeObject: false,
-                    linkIconPlus: Images.RightIcon,
-                    imgVariantPlus: 'img-arrow',
-                    path: '/d-sub1'
-                },
-                {
-                    name: 'Action 2',
-                    linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                    activeObject: false,
-                    linkIconPlus: Images.RightIcon,
-                    imgVariantPlus: 'img-arrow',
-                    path: '/d-sub2',
-                    childrens: [
-                        {
-                            name: 'action 2.1',
-                            linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                            activeObject: false,
-                            linkIconPlus: Images.RightIcon,
-                            imgVariantPlus: 'img-arrow',
-                            path: '/d-sub1'
-                        },
-                        {
-                            name: 'action 2.2',
-                            linkIcon: Images.BookMark || 'https://picsum.photos/19',
-                            activeObject: false,
-                            linkIconPlus: Images.RightIcon,
-                            imgVariantPlus: 'img-arrow',
-                            path: '/d-sub2',
-                        },
-                    ]
-                },
-            ]
         },
         {
-            name: 'Reports',
+            name: 'IV - React Native Test',
             linkIcon: Images.Grade || 'https://picsum.photos/19',
             activeObject: false,
             linkIconPlus: Images.ReportIcon,
@@ -99,7 +45,15 @@ export const NavGroup: React.FC<NavGroupProps> = ({
             path: '/reports',
         },
         {
-            name: 'Settings',
+            name: 'V - Python Test ',
+            linkIcon: Images.Settings || 'https://picsum.photos/19',
+            activeObject: false,
+            linkIconPlus: Images.ReportIcon,
+            imgVariantPlus: 'img-arrow',
+            path: '/setting',
+        },
+        {
+            name: 'VI - Database Test ',
             linkIcon: Images.Settings || 'https://picsum.photos/19',
             activeObject: false,
             linkIconPlus: Images.ReportIcon,
